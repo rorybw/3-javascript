@@ -1,0 +1,25 @@
+    body {
+        
+        font-family:"Roboto", sans-serif;
+        background-color: #fe9090;
+    }
+    
+    #resultParagraph {
+        
+        font-weight: bold;
+    }
+    
+    #testArea {
+        
+        height:550px;
+        background-color: ;
+    }
+    
+    #shape {
+        
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        display: none;
+        position:relative;
+    }
