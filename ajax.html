@@ -18,10 +18,15 @@
     
     <script type="text/javascript">
         
-        $.get("text.txt", function(data) {
+        $.ajax("text.txt").done(function(data) {
             
-            alert(data);
-        })
+           alert(data);
+            
+        }).fail(function() {
+            
+            alert("Could not get data");
+            
+        });
     
     </script>    
     
