@@ -16,17 +16,21 @@
 
     <p>This is my AJAX page.</p>
     
+    <p id="ajaxText"></p>
+    
     <script type="text/javascript">
         
-        $.ajax("tet.txt").done(function(data) {
+        $.ajax("text.txt")
+            .done(function(data) {
             
-           alert(data);
+            $("ajaxText").html(data);
             
-        }).fail(function() {
+            }).
+            fail(function() {
             
             alert("Could not get data");
             
-        });
+            });
     
     </script>    
     
